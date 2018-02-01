@@ -14,44 +14,44 @@ class ExamTester {
             answers.add("CopenHagen");
             answers.add("not CopenHagen");
             answers.add("Chicago");
-            answers.add("Not Chicago BUT definitely not CopenHagen");
+            answers.add("not Chicago BUT definitely not CopenHagen");
      int rightAnswer = 1;
      Question question1 = createQuestion(question,answers,rightAnswer);
 
 
-     question = "Would you go on a data with me?";
+     question = "What year is it?";
      answers = new Vector<String>(5);
-            answers.add("ahhhhhh, thats cute, Ill see if im not busy this weekend and ill let you know");
-            answers.add("lol nah, your like my little brother/sister...");
-            answers.add("Im not looking for a relationship right now");
-            answers.add("Yes(the only right answer)");
+            answers.add("1883");
+            answers.add("2020");
+            answers.add("2018");
+            answers.add("I dont believe in years");
 
-    rightAnswer = 4;
+    rightAnswer = 3;
     Question question2 = createQuestion(question,answers,rightAnswer);
-    question = "What would make the world a better place?";
+    question = "Whats the human population?";
     answers = new Vector<String>(5);
-           answers.add("death");
-           answers.add("more death");
-           answers.add("money ");
-           answers.add("love");
+           answers.add("Over 7 million");
+           answers.add("under 60,000");
+           answers.add("about 3,000,000");
+           answers.add("there are no people life is an illusion");
+   rightAnswer = 1;
 
-   rightAnswer = 3;
    Question question3 = createQuestion(question,answers,rightAnswer);
    question = "Whats your favorite programming language?";
    answers = new Vector<String>(5);
           answers.add("python");
           answers.add("not python");
           answers.add("i love debugging C/C++ code");
-          answers.add("i hate being productive");
+          answers.add("anything other than python");
 
   rightAnswer = 1;
   Question   question4 = createQuestion(question,answers,rightAnswer);
-  question = "Wheres your favorite place to cry?";
+  question = "What?";
   answers = new Vector<String>(5);
-         answers.add("in my head");
-         answers.add("in the shower");
-         answers.add("in public");
-         answers.add("i dont cry man thats dumb");
+         answers.add("I dont get it?");
+         answers.add("No");
+         answers.add("Yes");
+         answers.add("Maybe");
 
  rightAnswer = 3;
  Question question5 = createQuestion(question,answers,rightAnswer);
