@@ -1,0 +1,1 @@
+The app is suppose to allow the user to create a working exam and randomize the order of the question and answers while still being a valid exam. This is implemented in java using, the vector and Collections classes. Just run make and "java ExamTester" to start using the program. 
